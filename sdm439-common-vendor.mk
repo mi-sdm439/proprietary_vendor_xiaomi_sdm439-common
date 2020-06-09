@@ -717,6 +717,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_red2.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_red2.png \
     vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_scale.png
 
+# QCRILD
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sdm439-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
+    vendor/xiaomi/sdm439-common/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
+    vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libqcrilFramework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcrilFramework.so \
+    vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libril-qc-hal-qmi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qc-hal-qmi.so \
+    vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so
+
 PRODUCT_PACKAGES += \
     libaudio_log_utils \
     libgpustats \
