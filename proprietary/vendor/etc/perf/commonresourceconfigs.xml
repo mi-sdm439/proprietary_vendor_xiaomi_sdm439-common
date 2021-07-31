@@ -92,6 +92,7 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x24" Node="/proc/sys/kernel/sched_coloc_busy_hysteresis_enable_cpus" />
         <Minor OpcodeValue="0x25" Node="/proc/sys/kernel/sched_coloc_busy_hyst_ns" />
         <Minor OpcodeValue="0x26" Node="/proc/sys/kernel/sched_window_stats_policy" />
+        <Minor OpcodeValue="0x27" Node="/proc/sys/kernel/sched_many_wakeup_threshold" />
     <!-- sched major end -->
 
     <!-- core hotplug major start -->
@@ -141,6 +142,7 @@ need to be added just before the end of it's major group. -->
         <Minor OpcodeValue="0x9" Node="/sys/class/devfreq/soc:qcom,cpubw/bw_hwmon/idle_mbps" />
         <Minor OpcodeValue="0xA" Node="/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/min_freq" />
         <Minor OpcodeValue="0xB" Node="/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/up_scale" />
+        <Minor OpcodeValue="0xC" Node="/sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/use_ab" />
     <!-- cpubw hwmon major end -->
 
     <!-- video major start -->
