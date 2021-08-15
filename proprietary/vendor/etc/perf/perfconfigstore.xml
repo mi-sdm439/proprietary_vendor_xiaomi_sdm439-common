@@ -25,7 +25,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.empty_app_percent" Value="50" />
                 <Prop Name="ro.vendor.qti.sys.fw.trim_empty_percent" Value="100" />
                 <Prop Name="ro.vendor.qti.sys.fw.trim_cache_percent" Value="100" />
-                <Prop Name="ro.vendor.qti.am.reschedule_service" Value="true" />
+                <Prop Name="ro.vendor.qti.am.reschedule_service" Value="false" />
                 <Prop Name="ro.vendor.at_library" Value="libqti-at.so" />
                 <Prop Name="vendor.debug.enable.lm" Value="false" />
                 <Prop Name="ro.lmk.enable_userspace_lmk" Value="false" />
