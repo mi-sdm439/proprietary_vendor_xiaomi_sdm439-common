@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter pine olives,$(TARGET_DEVICE)),)
+ifneq ($(filter mi439 pine olives,$(TARGET_DEVICE)),)
 
 endif
