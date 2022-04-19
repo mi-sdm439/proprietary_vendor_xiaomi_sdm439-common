@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/bin/chargeonlymode:$(TARGET_COPY_OUT_VENDOR)/bin/chargeonlymode \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/xiaomi/sdm439-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
@@ -711,7 +710,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libslimclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libslimclient.so \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libsuspend.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsuspend.so \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
     vendor/xiaomi/sdm439-common/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so \
@@ -791,27 +789,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm439-common/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/xiaomi/sdm439-common/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/sdm439-common/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/0.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/0.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/1.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/1.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/10.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/10.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/2.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/2.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/3.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/3.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/4.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/4.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/5.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/5.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/6.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/6.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/7.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/7.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/8.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/8.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/9.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/9.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_0.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_0.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_green1.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_green1.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_green2.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_green2.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_green3.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_green3.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_red1.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_red1.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/Battery_red2.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/Battery_red2.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/battery_fail.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_fail.png \
-    vendor/xiaomi/sdm439-common/proprietary/vendor/res/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_scale.png
+    vendor/xiaomi/sdm439-common/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     libaudio_log_utils \
